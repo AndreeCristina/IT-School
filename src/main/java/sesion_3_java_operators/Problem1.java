@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Problem1 {
 
     public static void main(String[] args) {
-        // Write a Java program to find the remainder of two integers x and y using the modulus operator.
-        // Also, compute the result of x raised to the power of y using the Math.pow function.
+        /* Write a Java program to find the remainder of two integers x and y using the modulus operator.
+        Also, compute the result of x raised to the power of y using the Math.pow function.
+        */
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter first number: ");
         int x = sc.nextInt();
