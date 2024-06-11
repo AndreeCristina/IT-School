@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class ExerciseSix {
 
     public static void main(String[] args) {
+        // 6. Write a Java program that takes two numbers from the user and uses relational operators to display
+        // whether the first number is greater than, less than, or equal to the second number.
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Please, enter the first number: ");

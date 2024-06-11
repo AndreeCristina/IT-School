@@ -3,6 +3,7 @@ package sesion_3_java_operators.challenge;
 public class ExerciseFive {
 
     public static void main(String[] args) {
+        // 5. Create a Java program that demonstrates the use of each compound assignment operator with integers.
 
         int no1 = 10;
         no1 += 15;
