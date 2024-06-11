@@ -1,4 +1,4 @@
-package sesion_3_java_operators;
+package sesion_3_java_operators.practice;
 
 public class Variables {
     public static void main(String[] args) {
