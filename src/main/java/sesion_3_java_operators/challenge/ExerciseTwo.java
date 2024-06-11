@@ -12,6 +12,7 @@ public class ExerciseTwo {
 //        System.out.println(number--);
 
         // version 2
+
         ++number;
         System.out.println(number);
         --number;
