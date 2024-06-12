@@ -5,10 +5,8 @@ import java.util.Scanner;
 public class ProblemFour {
 
     public static void main(String[] args) {
-        // 4: Student Grade Check
-        //Write a Java program to check if a student has passed or failed an exam.
-        // Given the student's score, if the score is 50 or above, print "Passed",
-        // otherwise print "Failed".
+        /* 4: Student Grade Check. Write a Java program to check if a student has passed or failed an exam.
+         Given the student's score, if the score is 50 or above, print "Passed", otherwise print "Failed".*/
 
         Scanner sc = new Scanner(System.in);
 
