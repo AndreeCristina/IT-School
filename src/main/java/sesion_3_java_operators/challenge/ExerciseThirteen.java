@@ -8,14 +8,14 @@ public class ExerciseThirteen {
         //13. Write a program to calculate the price after discount. Take the original price and discount percentage as input.
         // Use compound assignment operator to perform the calculation.
 
-        // first version
+        // first version - without compound assignment operator
 
         double originalPrice = 150.5;
         double myDiscount = 10;
         double priceAfterDiscount = originalPrice - ((originalPrice * myDiscount) / 100);
         System.out.println("The price after discount is: " + priceAfterDiscount);
 
-        // second version
+        // second version - without compound assignment operator
 
         Scanner sc = new Scanner(System.in);
 
@@ -28,7 +28,7 @@ public class ExerciseThirteen {
 //
 //        System.out.println("The price after discount is: " + myPriceAfterDiscount);
 
-        // the third version
+        // the third version - with compound assignment operator
 
         System.out.println("Please, enter the price: ");
         double price = sc.nextDouble();
