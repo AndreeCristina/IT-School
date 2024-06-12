@@ -10,7 +10,7 @@ public class ExerciseThirteen {
         // first version
 
         double originalPrice = 150.5;
-        int myDiscount = 10;
+        double myDiscount = 10;
         double priceAfterDiscount = originalPrice - ((originalPrice * myDiscount) / 100);
         System.out.println("The price after discount is: " + priceAfterDiscount);
 
@@ -18,13 +18,25 @@ public class ExerciseThirteen {
 
         Scanner sc = new Scanner(System.in);
 
+//        System.out.println("Please, enter the price: ");
+//        double price = sc.nextDouble();
+//        System.out.println("Please, enter de discount: ");
+//        double discount = sc.nextDouble();
+//
+//        double myPriceAfterDiscount = price - ((price * discount) / 100);
+//
+//        System.out.println("The price after discount is: " + myPriceAfterDiscount);
+
+        // the third version
+
         System.out.println("Please, enter the price: ");
         double price = sc.nextDouble();
         System.out.println("Please, enter de discount: ");
-        int discount = sc.nextInt();
+        double discount = sc.nextDouble();
 
-        double myPriceAfterDiscount = price - ((price * discount) / 100);
+        double myDiscount2 = discount / 100;
+        price *= (1 - myDiscount2);
 
-        System.out.println("The price after discount is: " + myPriceAfterDiscount);
+        System.out.println("My price after discount is : " + price);
     }
 }
