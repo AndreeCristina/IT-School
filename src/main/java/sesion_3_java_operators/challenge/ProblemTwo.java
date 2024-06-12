@@ -2,7 +2,7 @@ package sesion_3_java_operators.challenge;
 
 import java.util.Scanner;
 
-public class Problem2 {
+public class ProblemTwo {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
