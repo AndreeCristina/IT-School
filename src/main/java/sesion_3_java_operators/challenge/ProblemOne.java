@@ -3,6 +3,10 @@ package sesion_3_java_operators.challenge;
 public class ProblemOne {
 
     public static void main(String[] args) {
+        /* Write a Java program to calculate the total cost and change you get back when buying items.
+        Given the price of an item price and the quantity, calculate the total cost.
+        Assume you paid with a bill of 100. Print the total cost and the change you receive.*/
+
         double price = 5.5;
         int itemsNo = 3;
 
