@@ -3,8 +3,8 @@ package sesion_3_java_operators.challenge;
 public class ExerciseTwelve {
 
     public static void main(String[] args) {
-        // 12. Create a program that takes an integer as input
-        // and then increments and decrements it by 1, displaying the output at each stage.
+        // 12. Create a program that takes an integer as input and
+        // then increments and decrements it by 1, displaying the output at each stage.
 
         int myNumber = 17;
 
