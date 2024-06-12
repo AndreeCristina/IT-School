@@ -15,7 +15,7 @@ public class ExerciseOne {
 //        int addition = no1 + no2;
 //        int subtraction = no1 - no2;
 //        int product = no1 * no2;
-//        double division = (double) no1 / no2;
+//        double division = (double)no1 / no2;
 //        int modulus = no1 % no2;
 
 //        System.out.println("Addition: " + addition);
@@ -35,7 +35,7 @@ public class ExerciseOne {
         int addition = number1 + number2;
         int subtraction = number1 - number2;
         int product = number1 * number2;
-        double division = (double) number1 / number2;
+        double division = (double)number1 / number2;
         int modulus = number1 % number2;
 
         System.out.println("Addition: " + addition);

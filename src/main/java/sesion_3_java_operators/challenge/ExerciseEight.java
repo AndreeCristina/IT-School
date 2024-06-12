@@ -1,8 +1,8 @@
 package sesion_3_java_operators.challenge;
 
 public class ExerciseEight {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         // 8. Create a program that takes two byte values,adds them together,
         // and stores the result in a byte variable.
 

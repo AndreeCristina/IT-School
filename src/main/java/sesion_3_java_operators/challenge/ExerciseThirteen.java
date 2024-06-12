@@ -12,7 +12,9 @@ public class ExerciseThirteen {
 
         double originalPrice = 150.5;
         double myDiscount = 10;
+
         double priceAfterDiscount = originalPrice - ((originalPrice * myDiscount) / 100);
+
         System.out.println("The price after discount is: " + priceAfterDiscount);
 
         // second version - without compound assignment operator

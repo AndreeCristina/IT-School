@@ -11,6 +11,7 @@ public class ExerciseNine {
 
         double length = 14.3;
         double breadth = 15.5;
+
         double area = length * breadth;
 
         System.out.println("The area of the rectangle is: " + area);
@@ -24,8 +25,8 @@ public class ExerciseNine {
         System.out.println("Please, enter the second number: ");
         double breadth2 = sc.nextDouble();
 
-        double are2 = length2 * breadth2;
+        double area2 = length2 * breadth2;
 
-        System.out.println("The area of the rectangle is: " + are2);
+        System.out.println("The area of the rectangle is: " + area2);
     }
 }
