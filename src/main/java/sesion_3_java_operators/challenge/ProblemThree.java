@@ -7,9 +7,9 @@ public class ProblemThree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Please, enter the initial balance:");
+        System.out.println("Please, enter the initial balance: ");
         double initialBalance = sc.nextDouble();
-        System.out.println("Please, enter the deposit amount:");
+        System.out.println("Please, enter the deposit amount: ");
         double depositAmount = sc.nextDouble();
 
         double newBalance = initialBalance + depositAmount;
