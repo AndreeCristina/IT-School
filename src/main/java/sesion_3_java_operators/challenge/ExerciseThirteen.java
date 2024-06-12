@@ -7,6 +7,7 @@ public class ExerciseThirteen {
     public static void main(String[] args) {
         //13. Write a program to calculate the price after discount. Take the original price and discount percentage as input.
         // Use compound assignment operator to perform the calculation.
+
         // first version
 
         double originalPrice = 150.5;
