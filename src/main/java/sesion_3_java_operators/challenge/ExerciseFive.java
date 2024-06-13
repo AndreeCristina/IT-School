@@ -24,5 +24,9 @@ public class ExerciseFive {
         int no5 = 5;
         no5 *= 5;
         System.out.println(no5);
+
+        int no6 = 10;
+        no6 &= 15;
+        System.out.println(no6);
     }
 }
