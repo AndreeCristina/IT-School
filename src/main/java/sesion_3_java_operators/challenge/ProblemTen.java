@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class ProblemTen {
 
     public static void main(String[] args) {
-        /* 10: Calorie Tracker. Write a Java program to track calories consumed in a meal. Given the calories of three different
-        food items calories1, calories2, and calories3, calculate and print the total calories consumed in the meal.*/
+        /* 10: Calorie Tracker. Write a Java program to track calories consumed in a meal. Given the calories of three different food items
+         calories1, calories2, and calories3, calculate and print the total calories consumed in the meal.*/
 
         Scanner sc = new Scanner(System.in);
 
