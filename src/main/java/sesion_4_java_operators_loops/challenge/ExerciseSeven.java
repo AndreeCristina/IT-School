@@ -2,7 +2,7 @@ package sesion_4_java_operators_loops.challenge;
 
 import java.util.Scanner;
 
-public class exerciseSeven {
+public class ExerciseSeven {
 
     public static void main(String[] args) {
         /* 7. Write a Java program that determines the type of a triangle based on its sides. Declare three variables
