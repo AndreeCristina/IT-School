@@ -6,7 +6,6 @@ public class ExerciseSixteen {
         /* 16. Write a Java program where you use unary operators to perform a series of transformations on an integer variable number
         initialized to 50. First, negate number, then take the absolute value, and finally increment it by 1.
         Print the result at each step.*/
-
         int number = 50;
 
         int negateNumber = -number;
