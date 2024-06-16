@@ -13,6 +13,5 @@ public class ExerciseFifteen {
 
         total *= 2;
         System.out.println("total after multiply: " + total);
-
     }
 }

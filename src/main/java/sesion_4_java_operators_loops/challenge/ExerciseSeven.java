@@ -23,7 +23,7 @@ public class ExerciseSeven {
         }
 
         String triangle = (sideOne == sideTwo && sideTwo == sideThree) ? "Equilateral" :
-                          (sideOne != sideTwo && sideTwo != sideThree && sideThree != sideOne) ? "Scalene" : "Isosceles";
+                (sideOne != sideTwo && sideTwo != sideThree && sideThree != sideOne) ? "Scalene" : "Isosceles";
 
         System.out.println("The triangle is " + triangle);
     }
