@@ -19,7 +19,7 @@ public class ExerciseEighteen {
         System.out.println();
 
         for (int index = 0; index < myArray.length; index++) {
-            myArray[index] = index - 1;
+            myArray[index] = myArray[index] - 1;
         }
 
         System.out.print("The array after decrement: ");
