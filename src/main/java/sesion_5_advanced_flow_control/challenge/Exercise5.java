@@ -11,17 +11,30 @@ public class Exercise5 {
 
         System.out.println("Please, enter a number:");
         int n = sc.nextInt();
-        int firstNo = 0, secondNo = 1, nextNo;
 
-        for (int index = 0; index < n; index++) {
-            if (index <= 0) {
-                nextNo = index;
-            } else {
+        System.out.println("Fibonacci series: ");
+        printFibonacci(n);
+
+        sc.close();
+    }
+
+    public static void printFibonacci(int n) {
+        int nextNo;
+        if (n <= 0) {
+            System.out.println("Invalid number.Please, enter a number grater than 0.");
+        } else if (n == 1) {
+            System.out.println(1);
+        } else if (n == 2) {
+            System.out.println(1 + " " + 1);
+        } else {
+            int firstNo = 1, secondNo = 1;
+            System.out.print(firstNo + " " + secondNo + " ");
+            for (int i = 3; i <= n; ++i) {
                 nextNo = firstNo + secondNo;
                 firstNo = secondNo;
                 secondNo = nextNo;
+                System.out.print(nextNo + " ");
             }
-            System.out.print(nextNo + " ");
         }
     }
 }
