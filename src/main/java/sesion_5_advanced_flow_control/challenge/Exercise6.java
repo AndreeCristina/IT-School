@@ -10,7 +10,8 @@ public class Exercise6 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Please, enter a number:");
-        int number = sc.nextInt(), sumNumbers = 0;
+        int number = sc.nextInt();
+        int sumNumbers = 0;
 
         while (number != -1) {
             sumNumbers += number;
