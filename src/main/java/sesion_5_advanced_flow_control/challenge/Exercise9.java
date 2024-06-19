@@ -8,7 +8,17 @@ public class Exercise9 {
     public static void main(String[] args) {
         /* 9. For-Each Loop. Given an array of integers, write a program that prints each number in the array followed by
         "Even" if the number is even, or "Odd" if the number is odd. Utilize a for-each loop for this task.*/
-        // first version
+        // first version - with array
+        int[] myArrayNo = {1, 7, 10, 8, 5, 101, 202, 71};
+
+        for (int no : myArrayNo) {
+            String parity = (no % 2 == 0) ? "Even" : "Odd";
+            System.out.println("Number " + no + " is " + parity);
+        }
+
+        System.out.println();
+
+        // second version - with ArrayList + add
         ArrayList<Integer> myArray = new ArrayList<>();
 
         myArray.add(7);
@@ -31,7 +41,7 @@ public class Exercise9 {
 
         System.out.println();
 
-        // second version
+        // third version - with ArrayList and Scanner
         Scanner sc = new Scanner(System.in);
 
         ArrayList<Integer> mySecondArray = new ArrayList<>();
