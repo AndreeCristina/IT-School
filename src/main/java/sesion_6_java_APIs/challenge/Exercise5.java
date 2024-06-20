@@ -14,7 +14,7 @@ public class Exercise5 {
     }
 
     public static String capitalizeWord(String sentence) {
-        if (sentence.isEmpty()) {
+        if (sentence.isEmpty() || sentence == null) {
             return sentence;
         }
 
