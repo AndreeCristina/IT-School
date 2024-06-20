@@ -1,4 +1,4 @@
-package sesion_6_java_APIs.challenge;
+package sesion_6_java_core_apis.challenge;
 
 public class Exercise4 {
 
