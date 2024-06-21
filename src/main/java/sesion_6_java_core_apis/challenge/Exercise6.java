@@ -1,33 +1,35 @@
 package sesion_6_java_core_apis.challenge;
 
 public class Exercise6 {
+    /* Use the StringBuilder class to replace every occurrence of a substring within a given string with another substring.
+    For instance, replace "cat" with "dog" in the string "The cat sat on the mat."*/
 
-    public static void main(String[] args) {
-        /* 6. String Replacement. Use the StringBuilder class to replace every of a substring within a given string
-        with another substring. For instance, replace "cat" with "dog" in the string "The cat sat on the mat." */
-        String myString = "The cat sat on the mat.";
-        String replaceString = replace(myString, "cat", "dog");
-
-        System.out.println("The original sentence is: " + myString);
-        System.out.println("The sentence after replaced string: " + replaceString);
-    }
-
-    public static String replace(String myString, String subsFrom, String subsTo) {
-        if (myString.isEmpty() || myString == null) {
+    public static String replaceSubstring(String myString, String from, String to) {
+        if (myString == null || from.isEmpty()) {
             return myString;
         }
 
         StringBuilder sb = new StringBuilder();
         int start = 0;
+        int index = 0;
 
-        int index = myString.indexOf(subsFrom);
-        while (index != -1) {
-            sb.append(myString.substring(start,index));
-            sb.append(subsTo);
-            start = index + subsFrom.length();
-            index = myString.indexOf(subsFrom, start);
+        while ((index = myString.indexOf(from, index)) != -1) {
+            System.out.println(index);
+            sb.append(myString.substring(start, index));
+            sb.append(to);
+            start = index + from.length();
+            index++;
         }
-        sb.append(myString.substring(start));
-        return myString.toString();
+
+        sb.append(myString.substring(start)); // Append the remaining part of the string
+
+        return sb.toString();
+    }
+
+    public static void main(String[] args) {
+        String originalString = "The cat sat on the mat.";
+        String replacedString = replaceSubstring(originalString, "cat", "dog");
+        System.out.println("Original String: " + originalString);
+        System.out.println("String with Replaced Substrings: " + replacedString);
     }
 }
