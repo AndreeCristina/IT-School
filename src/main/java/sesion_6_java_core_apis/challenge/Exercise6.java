@@ -14,14 +14,13 @@ public class Exercise6 {
         int index = 0;
 
         while ((index = myString.indexOf(from, index)) != -1) {
-            System.out.println(index);
             sb.append(myString.substring(start, index));
             sb.append(to);
             start = index + from.length();
             index++;
         }
 
-        sb.append(myString.substring(start)); // Append the remaining part of the string
+        sb.append(myString.substring(start));
 
         return sb.toString();
     }
