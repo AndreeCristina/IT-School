@@ -29,5 +29,6 @@ public class Exercise4 {
 //        } else {
 //            System.out.println(false);
 //        }
+        sc.close();
     }
 }

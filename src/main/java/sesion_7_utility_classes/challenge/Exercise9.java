@@ -24,6 +24,8 @@ public class Exercise9 {
         LocalDate parsedFirstDate = LocalDate.parse(firstDate);
         LocalDate parsedSecondDate = LocalDate.parse(secondDate);
 
+        sc.close();
+
         return ChronoUnit.DAYS.between(parsedFirstDate, parsedSecondDate);
     }
 }
