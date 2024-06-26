@@ -7,6 +7,7 @@ public class Exercise4 {
     /* 4. Comparing User-Entered Dates Description: Write a method named areDatesEqual that reads two dates from the console
      and returns true if they are equal, and false otherwise.Input: Two dates entered by the user in the format YYYY-MM-DD.
      Expected Output: true if both dates are equal. false if they are different.*/
+
     public static void main(String[] args) {
         areDatesEqual();
     }

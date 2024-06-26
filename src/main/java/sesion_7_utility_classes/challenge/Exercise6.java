@@ -5,6 +5,7 @@ import java.time.LocalTime;
 public class Exercise6 {
     /* 6. Getting Current Time. Description: Write a method named displayCurrentTime that prints the current time to the console.
     Expected Output: The current time in the format HH:MM:SS.*/
+
     public static void main(String[] args) {
         displayCurrentTime();
     }
