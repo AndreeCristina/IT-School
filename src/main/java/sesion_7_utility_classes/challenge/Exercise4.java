@@ -14,6 +14,7 @@ public class Exercise4 {
 
     public static void areDatesEqual() {
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Please, enter the first date (YYYY-MM-DD):");
         String firstDate = sc.nextLine();
         System.out.println("Please, enter the second date (YYYY-MM-DD)");
@@ -24,11 +25,7 @@ public class Exercise4 {
 
         boolean compareDates = parsedFirstDate.isEqual(parsedSecondDate);
         System.out.println(compareDates);
-//        if (parsedFirstDate.isEqual(parsedSecondDate)) {
-//            System.out.println(true);
-//        } else {
-//            System.out.println(false);
-//        }
+
         sc.close();
     }
 }

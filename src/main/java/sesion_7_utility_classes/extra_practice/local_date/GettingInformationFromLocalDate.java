@@ -1,4 +1,4 @@
-package sesion_7_utility_classes.extraPractice;
+package sesion_7_utility_classes.extra_practice.local_date;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
