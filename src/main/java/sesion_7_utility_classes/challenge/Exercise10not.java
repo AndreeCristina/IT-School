@@ -1,11 +1,11 @@
 package sesion_7_utility_classes.challenge;
 
-import java.time.LocalDate;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
-public class Exercise10ToRebuild {
+public class Exercise10not {
     /* 10. Date Authenticator Description: Engineer a method named isValidDate that captures a date string from the console
     and assesses if it conforms to a valid date format (YYYY-MM-DD). The method should also consider leap years when
     validating February dates. Input: A string of a date from the console. Expected Output: true if the input adheres
@@ -23,7 +23,8 @@ public class Exercise10ToRebuild {
 
     public static boolean isValidDate(String dateString) {
         try {
-            LocalDate.parse(dateString, DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+            LocalDate parsedDate = LocalDate.parse(dateString, formatter);
             return true;
         } catch (DateTimeParseException e) {
             return false;
