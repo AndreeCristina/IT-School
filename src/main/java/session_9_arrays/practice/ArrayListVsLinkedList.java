@@ -10,9 +10,6 @@ public class ArrayListVsLinkedList {
         List<String> arrayList = new ArrayList<>();
         List<String> linkedList =new LinkedList<>();
 
-        for (int index = 0; index < 500000; index) {
 
-
-        }
     }
 }
