@@ -12,7 +12,7 @@ public class Exercise2 {
         christmasWishList.add("plane ticket to Madeira");
         christmasWishList.add("a paid course");
 
-        for (int index = 0; index < christmasWishList.toArray().length; index++) {
+        for (int index = 0; index < christmasWishList.size(); index++) {
             System.out.println((index + 1) + " " + christmasWishList.get(index));
         }
     }
