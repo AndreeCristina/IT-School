@@ -15,8 +15,7 @@ public class Exercise4WithScanner {
             numbers[index] = sc.nextInt();
         }
 
-        int countEven = 0;
-        int countOdd = 0;
+        int countEven = 0, countOdd = 0;
 
         for (int index = 0; index < numbers.length; index++) {
             if (numbers[index] % 2 == 0) {

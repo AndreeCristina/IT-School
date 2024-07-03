@@ -13,8 +13,8 @@ public class Exercise3 {
         ArrayList<String> graduateStudentList = new ArrayList<>();
 
         int noOfStudents = 10;
-        Scanner sc = new Scanner(System.in);
 
+        Scanner sc = new Scanner(System.in);
         for (int index = 0; index < noOfStudents; index++) {
             System.out.println("Please, enter a student:");
             studentList.add(sc.nextLine());

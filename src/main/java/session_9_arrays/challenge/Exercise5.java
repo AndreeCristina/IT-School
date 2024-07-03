@@ -18,7 +18,6 @@ public class Exercise5 {
         cityNames.add("Oradea");
 
         Scanner sc = new Scanner(System.in);
-        
         System.out.println("Please, enter a city name: ");
         String city = sc.nextLine();
 
@@ -27,5 +26,7 @@ public class Exercise5 {
         } else {
             cityNames.add(city);
         }
+
+        sc.close();
     }
 }
