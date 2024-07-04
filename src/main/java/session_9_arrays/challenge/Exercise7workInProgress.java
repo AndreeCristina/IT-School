@@ -1,10 +1,8 @@
 package session_9_arrays.challenge;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 
-public class Exercise7 {
+public class Exercise7workInProgress {
     /* 7. Create an ArrayList containing names of fruits.
     Implement a custom sorting mechanism to arrange them in descending order based on their length.
     If two fruits have the same length, sort them in alphabetical order.*/
@@ -19,6 +17,6 @@ public class Exercise7 {
         fruitsList.add("prune");
         fruitsList.add("nectarine");
 
-        Collections.sort(fruitsList);
+
     }
 }
