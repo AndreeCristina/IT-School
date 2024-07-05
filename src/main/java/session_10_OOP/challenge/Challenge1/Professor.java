@@ -31,7 +31,7 @@ public class Professor {
                 ", age=" + age +
                 ", dateOfBirth=" + dateOfBirth +
                 ", CNP='" + CNP + '\'' +
-                ", address='" + address + '\'' +
+                ", address=" + address +
                 '}';
     }
 }

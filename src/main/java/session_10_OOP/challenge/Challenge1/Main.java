@@ -5,7 +5,8 @@ import java.time.LocalDate;
 public class Main {
 
     public static void main(String[] args) {
-        Student s1 = new Student("Andreea", "Cepoi", "F", 35, LocalDate.of(1989, 4, 7), "2890407080082", "Botosani");
+        Student s1 = new Student("Andreea", "Cepoi", "F", 35, LocalDate.of(1989, 4, 7),
+                "2890407080082", new Address("Str.", "Ion Luca Caragiale", 40, 5, "Botosani", "Botosani", 710339, "Romania"));
 
         Professor profMath = new Professor("Ioana", "Ignat", "F", 55, LocalDate.of(1969, 6, 3), "2690603080042", "Iasi");
         Professor profCompScience = new Professor("Gabriel", "Ionescu", "M", 43, LocalDate.of(1980, 9, 8), "1800908070062", "Brasov");

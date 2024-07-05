@@ -10,9 +10,9 @@ public class Student {
     int age;
     LocalDate dateOfBirth;
     String CNP;
-    String address;
+    Address address;
 
-    public Student(String firstName, String lastName, String gender, int age, LocalDate dateOfBirth, String CNP, String address) {
+    public Student(String firstName, String lastName, String gender, int age, LocalDate dateOfBirth, String CNP, Address address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
@@ -29,9 +29,9 @@ public class Student {
                 ", lastName='" + lastName + '\'' +
                 ", gender='" + gender + '\'' +
                 ", age=" + age +
-                ", dateOfBirth='" + dateOfBirth + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
                 ", CNP='" + CNP + '\'' +
-                ", address='" + address + '\'' +
+                ", address=" + address +
                 '}';
     }
 }
