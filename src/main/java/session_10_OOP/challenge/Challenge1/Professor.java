@@ -21,4 +21,17 @@ public class Professor {
         this.CNP = CNP;
         this.address = address;
     }
+
+    @Override
+    public String toString() {
+        return "Professor{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", gender='" + gender + '\'' +
+                ", age=" + age +
+                ", dateOfBirth=" + dateOfBirth +
+                ", CNP='" + CNP + '\'' +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }

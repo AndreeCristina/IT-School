@@ -1,7 +1,5 @@
 package session_10_OOP.challenge.Challenge1;
 
-import java.util.ArrayList;
-
 public class Courses {
 
     Schedule schedule;

@@ -7,9 +7,9 @@ public class Schedule {
     String endTime;
 
     public Schedule(String day, String startTime, String endTime) {
-        this.day;
-        this.startTime;
-        this.endTime;
+        this.day = day;
+        this.startTime = startTime;
+        this.endTime = endTime;
     }
 
     @Override
