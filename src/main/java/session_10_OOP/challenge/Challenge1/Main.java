@@ -1,7 +1,6 @@
 package session_10_OOP.challenge.Challenge1;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 
 public class Main {
 
@@ -15,7 +14,7 @@ public class Main {
         Professor profBiology = new Professor("Monica", "Balan", "F", 31, LocalDate.of(1992, 10, 25), "2921025070045", "Galati");
         Professor profGeography = new Professor("Gabriel", "Marin", "M", 34, LocalDate.of(1989, 8, 28), "1890828080012", "Iasi");
         Professor profEnglish = new Professor("Ariana", "Marin", "F", 28, LocalDate.of(1995, 7, 14), "2950714070014", "Vaslui");
-        Professor profHistory = new Professor("Flavius", "Sauciuc", "M", 37, LocalDate.of(1987, 03, 22), "1870322080013", "Brasov");
+        Professor profHistory = new Professor("Flavius", "Sauciuc", "M", 37, LocalDate.of(1987, 3, 22), "1870322080013", "Brasov");
 
         Courses math = new Courses(new Schedule("Luni", "10:00", "10:50"), "50 minute", "Math", "online", profMath);
         Courses computerScience = new Courses(new Schedule("Luni", "11:00", "10:50"), "50 minute", "Computer Science", "hybrid", profCompScience);
