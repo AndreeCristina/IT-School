@@ -1,23 +1,35 @@
 package session_10_OOP.challenge.Challenge1;
 
+import java.time.LocalTime;
+
 public class Schedule {
 
-    String day;
-    String startTime;
-    String endTime;
+    Weekday day;
+    LocalTime startCourse;
+    LocalTime endCourse;
 
-    public Schedule(String day, String startTime, String endTime) {
+    public Schedule(Weekday day, LocalTime startCourse, LocalTime endCourse) {
         this.day = day;
-        this.startTime = startTime;
-        this.endTime = endTime;
+        this.startCourse = startCourse;
+        this.endCourse = endCourse;
+    }
+
+    public enum Weekday {
+        MONDAY,
+        TUESDAY,
+        WEDNESDAY,
+        THURSDAY,
+        FRIDAY,
+        SATURDAY,
+        SUNDAY
     }
 
     @Override
     public String toString() {
         return "Schedule{" +
                 "day='" + day + '\'' +
-                ", startTime='" + startTime + '\'' +
-                ", endTime='" + endTime + '\'' +
+                ", startCourse='" + startCourse + '\'' +
+                ", endCourse='" + endCourse + '\'' +
                 '}';
     }
 }

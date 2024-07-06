@@ -7,18 +7,16 @@ public class Professor {
     String firstName;
     String lastName;
     String gender;
-    int age;
     LocalDate dateOfBirth;
-    String CNP;
-    String address;
+    String PIN;
+    Address address;
 
-    public Professor(String firstName, String lastName, String gender, int age, LocalDate dateOfBirth, String CNP, String address) {
+    public Professor(String firstName, String lastName, String gender, LocalDate dateOfBirth, String PIN, Address address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
-        this.age = age;
         this.dateOfBirth = dateOfBirth;
-        this.CNP = CNP;
+        this.PIN = PIN;
         this.address = address;
     }
 
@@ -28,9 +26,8 @@ public class Professor {
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", gender='" + gender + '\'' +
-                ", age=" + age +
                 ", dateOfBirth=" + dateOfBirth +
-                ", CNP='" + CNP + '\'' +
+                ", PIN='" + PIN + '\'' +
                 ", address=" + address +
                 '}';
     }
