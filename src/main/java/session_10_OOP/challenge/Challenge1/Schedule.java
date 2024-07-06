@@ -4,9 +4,9 @@ import java.time.LocalTime;
 
 public class Schedule {
 
-    Weekday day;
-    LocalTime startCourse;
-    LocalTime endCourse;
+    private Weekday day;
+    private LocalTime startCourse;
+    private LocalTime endCourse;
 
     public Schedule(Weekday day, LocalTime startCourse, LocalTime endCourse) {
         this.day = day;

@@ -2,11 +2,11 @@ package session_10_OOP.challenge.Challenge1;
 
 public class Course {
 
-    Schedule schedule;
-    String duration;
-    String name;
-    String description;
-    Professor professorAssigned;
+    private Schedule schedule;
+    private String duration;
+    private String name;
+    private String description;
+    private Professor professorAssigned;
 
     public Course(Schedule schedule, String duration, String name, String description, Professor professorAssigned) {
         this.schedule = schedule;

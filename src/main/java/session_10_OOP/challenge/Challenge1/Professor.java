@@ -4,12 +4,12 @@ import java.time.LocalDate;
 
 public class Professor {
 
-    String firstName;
-    String lastName;
-    String gender;
-    LocalDate dateOfBirth;
-    String PIN;
-    Address address;
+    private final String firstName;
+    private final String lastName;
+    private final String gender;
+    private final LocalDate dateOfBirth;
+    private final String PIN;
+    private final Address address;
 
     public Professor(String firstName, String lastName, String gender, LocalDate dateOfBirth, String PIN, Address address) {
         this.firstName = firstName;

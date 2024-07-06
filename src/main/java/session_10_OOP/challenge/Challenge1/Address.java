@@ -2,13 +2,13 @@ package session_10_OOP.challenge.Challenge1;
 
 public class Address {
 
-    String street;
-    String number;
-    String block;
-    int flatNo;
-    String city;
-    String county;
-    String postalCode;
+    private String street;
+    private String number;
+    private String block;
+    private int flatNo;
+    private String city;
+    private String county;
+    private String postalCode;
 
     public Address(String street, String number, String block, int flatNo, String city, String county, String postalCode) {
 
