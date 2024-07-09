@@ -8,7 +8,6 @@ public class Exercise6 {
 
     public static void main(String[] args) {
         LinkedList<String> studentsName = new LinkedList<>();
-
         studentsName.add("John");
         studentsName.add("George");
         studentsName.add("Julia");

@@ -8,22 +8,20 @@ public class Exercise2WithScanner {
 
     public static void main(String[] args) {
         ArrayList<String> christmasWishList = new ArrayList<>();
-        Scanner scInt = new Scanner(System.in);
-        Scanner scString = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Please, enter a number of wishes:");
-        int noOfWishes = scInt.nextInt();
+        int noOfWishes = sc.nextInt();
 
         for (int index = 0; index < noOfWishes; index++) {
             System.out.println("Please, enter a wish: ");
-            christmasWishList.add(scString.nextLine());
+            christmasWishList.add(sc.nextLine());
         }
 
         for (String elements : christmasWishList) {
             System.out.print(elements + " ");
         }
 
-        scInt.close();
-        scString.close();
+        sc.close();
     }
 }
