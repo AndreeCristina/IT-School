@@ -1,6 +1,6 @@
 package kata.session_2;
 
-public class wordsCounter {
+public class WordsCounter {
 
     public static void main(String[] args) {
         String sentence = "I like to eat apples";
