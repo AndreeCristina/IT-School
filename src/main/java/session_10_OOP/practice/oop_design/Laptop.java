@@ -93,6 +93,4 @@ public class Laptop {
     public void setOperatingSystem(OperatingSystem operatingSystem) {
         this.operatingSystem = operatingSystem;
     }
-
-
 }
