@@ -1,4 +1,4 @@
-package session_10_OOP.challenge.Challenge1;
+package session_10_OOP.challenge.challenge1;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

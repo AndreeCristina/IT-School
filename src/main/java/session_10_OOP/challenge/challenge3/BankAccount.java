@@ -1,15 +1,15 @@
-package session_10_OOP.challenge.Challenge3;
+package session_10_OOP.challenge.challenge3;
 
 import java.util.List;
 
-public class Account {
+public class BankAccount {
 
     String holderName;
     String accountNumber;
     double balance;
     List<Transaction> transactions;
 
-    public Account(String holderName, String accountNumber, double balance, List<Transaction> transactions) {
+    public BankAccount(String holderName, String accountNumber, double balance, List<Transaction> transactions) {
         this.holderName = holderName;
         this.accountNumber = accountNumber;
         this.balance = balance;

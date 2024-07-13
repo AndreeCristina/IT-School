@@ -10,10 +10,12 @@ public class BooksService {
     private List<Member> memberList = new ArrayList<>();
 
     public void addBook(Book book) {
+
         bookList.add(book);
     }
 
     public void registerMember(Member member) {
+
         memberList.add(member);
     }
 }

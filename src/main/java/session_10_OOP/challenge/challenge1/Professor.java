@@ -1,17 +1,17 @@
-package session_10_OOP.challenge.Challenge1;
+package session_10_OOP.challenge.challenge1;
 
 import java.time.LocalDate;
 
-public class Student {
+public class Professor {
 
-    private String firstName;
-    private String lastName;
-    private String gender;
-    private LocalDate dateOfBirth;
-    private String PIN;
-    private Address address;
+    private final String firstName;
+    private final String lastName;
+    private final String gender;
+    private final LocalDate dateOfBirth;
+    private final String PIN;
+    private final Address address;
 
-    public Student(String firstName, String lastName, String gender, LocalDate dateOfBirth, String PIN, Address address) {
+    public Professor(String firstName, String lastName, String gender, LocalDate dateOfBirth, String PIN, Address address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
@@ -22,7 +22,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Professor{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", gender='" + gender + '\'' +

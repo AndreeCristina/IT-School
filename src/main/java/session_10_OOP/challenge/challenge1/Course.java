@@ -1,4 +1,4 @@
-package session_10_OOP.challenge.Challenge1;
+package session_10_OOP.challenge.challenge1;
 
 public class Course {
 

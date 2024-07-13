@@ -1,4 +1,4 @@
-package session_10_OOP.challenge.Challenge3;
+package session_10_OOP.challenge.challenge3;
 
 public class Transaction {
 
