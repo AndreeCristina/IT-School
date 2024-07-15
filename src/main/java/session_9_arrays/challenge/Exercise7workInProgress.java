@@ -9,14 +9,11 @@ public class Exercise7workInProgress {
 
     public static void main(String[] args) {
         ArrayList<String> fruitsList = new ArrayList<>();
-
         fruitsList.add("mere");
         fruitsList.add("pere");
         fruitsList.add("gutui");
         fruitsList.add("struguri");
         fruitsList.add("prune");
         fruitsList.add("nectarine");
-
-
     }
 }
