@@ -6,12 +6,12 @@ public class Student {
 
     private String firstName;
     private String lastName;
-    private String gender;
+    private Gender gender;
     private LocalDate dateOfBirth;
     private String PIN;
     private Address address;
 
-    public Student(String firstName, String lastName, String gender, LocalDate dateOfBirth, String PIN, Address address) {
+    public Student(String firstName, String lastName, Gender gender, LocalDate dateOfBirth, String PIN, Address address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
