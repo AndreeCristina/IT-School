@@ -1,4 +1,4 @@
-package session_11_Inheritance_encapsulation.challenge.challenge2.singleInheritance;
+package session_11_Inheritance_encapsulation.challenge.challenge2.single_inheritance;
 
 public class MountainBike extends Bicycle {
 
