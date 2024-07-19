@@ -14,16 +14,6 @@ public class Schedule {
         this.endCourse = endCourse;
     }
 
-    public enum Weekday {
-        MONDAY,
-        TUESDAY,
-        WEDNESDAY,
-        THURSDAY,
-        FRIDAY,
-        SATURDAY,
-        SUNDAY
-    }
-
     @Override
     public String toString() {
         return "Schedule{" +
