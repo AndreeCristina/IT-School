@@ -6,7 +6,7 @@ public class TestAnimal {
         Cat cat1 = new Cat();
         Dog dog1 = new Dog();
 
-        cat1.cats();
-        dog1.dogs();
+        cat1.makeSound();
+        dog1.makeSound();
     }
 }
