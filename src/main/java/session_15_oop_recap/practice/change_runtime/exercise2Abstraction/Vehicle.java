@@ -1,4 +1,4 @@
-package session_15_oop_recap.practice.change_runtime.Exercise2Abstraction;
+package session_15_oop_recap.practice.change_runtime.exercise2Abstraction;
 
 public interface Vehicle {
 
