@@ -16,7 +16,7 @@ public class StringChecker {
     }
 
     public static boolean checkString(String input) {
-        if (input.toLowerCase().indexOf("a") == -1) {
+        if (!input.toLowerCase().contains("a")) {
             return true;
         }
         if (input.toLowerCase().lastIndexOf("a") < input.toLowerCase().indexOf("b")) {
