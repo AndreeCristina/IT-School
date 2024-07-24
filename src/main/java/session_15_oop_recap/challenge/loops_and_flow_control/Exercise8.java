@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercise8 {
     /* Write a Java program that generates the first n numbers in the Fibonacci sequence using a loop.
-    Within your loop, utilize both pre and post-increment operators to manage your loop counter and
+    Within your loop, utilize both pre- and post-increment operators to manage your loop counter and
     to facilitate the generation of the Fibonacci sequence. */
 
     public static void main(String[] args) {
