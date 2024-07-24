@@ -21,13 +21,13 @@ public class Exercise4 {
         } else {
             boolean isPrim = true;
             int d = 3;
-            while ((d * d) <= number) {
+            while ((d * d) <= number && isPrim) {
                 if (number % d == 0) {
                     isPrim = false;
                 }
                 d += 2;
             }
-            if (isPrim == false) {
+            if (!isPrim) {
                 System.out.println("The number isn't prim.");
             } else {
                 System.out.println("The number is prim.");
