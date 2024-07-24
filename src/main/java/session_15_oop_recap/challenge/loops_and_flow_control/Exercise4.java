@@ -27,6 +27,7 @@ public class Exercise4 {
                 }
                 d += 2;
             }
+
             if (!isPrim) {
                 System.out.println("The number isn't prim.");
             } else {
