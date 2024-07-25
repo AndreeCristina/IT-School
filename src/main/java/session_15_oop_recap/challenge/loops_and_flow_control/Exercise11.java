@@ -1,21 +1,32 @@
 package session_15_oop_recap.challenge.loops_and_flow_control;
 
+import java.util.Scanner;
+
 public class Exercise11 {
-    /* Write a Java program to find the sum of the series: 1 - 2 + 3 - 4 + 5 - 6 + ... up to n
-    terms using a loop. Inside your loop, utilize pre and post increment operators to manage your loop
-    counter and to manipulate the values in the series. */
+    /* Create a Java program to check if a given word is a palindrome. Utilize pre-decrement and
+    post-decrement operators in your solution to handle your loop control variable.*/
 
     public static void main(String[] args) {
-        int n = 10;
+        Scanner sc = new Scanner(System.in);
 
-        int sum = 0;
-        int sign = 1;
+        System.out.println("Please, enter a word:");
+        String word = sc.nextLine();
 
-        for (int index = 1; index <= n; ++index) {
-            sum += sign * index;
-            sign = -sign;
+        if (isPalindrome(word)) {
+            System.out.println("The word is palindrome");
+        } else {
+            System.out.println("The word isn't palindrome.");
         }
+    }
 
-        System.out.println("Sum of the series: " + sum);
+    public static boolean isPalindrome(String word) {
+        word = word.toLowerCase();
+
+        for (int i = 0; i < word.length() / 2; ++i) {
+            if (word.charAt(i) != word.charAt(word.length() - 1 - i)) {
+                return false;
+            }
+        }
+        return true;
     }
 }
