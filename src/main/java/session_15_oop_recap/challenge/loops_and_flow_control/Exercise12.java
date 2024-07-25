@@ -1,21 +1,18 @@
 package session_15_oop_recap.challenge.loops_and_flow_control;
 
 public class Exercise12 {
-    /* Create a Java program that prints a number pyramid of n levels.
-    Utilize pre and post increment operators in your nested loops to construct the pyramid. */
+    /* Write a Java program to find the sum of the series: 1 - 2 + 3 - 4 + 5 - 6 + ... up to n
+    terms using a loop. Inside your loop, utilize pre and post increment operators to manage your loop
+    counter and to manipulate the values in the series. */
+
     public static void main(String[] args) {
-        int numberOfLevels = 5;
+        int n = 10, sum = 0, sign = 1;
 
-        for (int i = 1; i <= numberOfLevels; i++) {
-            for (int j = 1; j <= numberOfLevels - i; j++) {
-                System.out.print(" ");
-            }
-
-            for (int j = 1; j <= i; j++) {
-                System.out.print(j + " ");
-            }
-
-            System.out.println();
+        for (int index = 1; index <= n; ++index) {
+            sum += sign * index;
+            sign = -sign;
         }
+
+        System.out.println("Sum of the series: " + sum);
     }
 }

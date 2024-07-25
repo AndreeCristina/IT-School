@@ -21,7 +21,7 @@ public class Exercise2 {
                 System.out.println("It's a weekday.");
                 break;
             case "saturday":
-            case "sanday":
+            case "sunday":
                 System.out.println("It's a weekend day");
                 break;
             default:
