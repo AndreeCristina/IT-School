@@ -7,37 +7,35 @@ public class Exercise9 {
     /* Write a Java program to copy one array list into another. */
 
     public static void main(String[] args) {
-        List<String> fruits = new ArrayList<>();
-        fruits.add("apple");
-        fruits.add("pineapple");
-        fruits.add("banana");
-        fruits.add("pear");
+        List<String> sourceList = new ArrayList<>();
+        sourceList.add("apple");
+        sourceList.add("pineapple");
+        sourceList.add("banana");
+        sourceList.add("pear");
 
-        List<String> otherFruits = new ArrayList<>();
-        otherFruits.add("lemon");
-        otherFruits.add("strawberry");
-        otherFruits.add("blueberry");
+        System.out.println("The element from the source list: ");
+        displayArrayList(sourceList);
 
-        System.out.println("fruits arrayList: ");
-        displayArrayList(fruits);
+        List<String> targetList = new ArrayList<>();
 
-        System.out.println("otherFruits arrayList: ");
-        displayArrayList(otherFruits);
+        System.out.println("Target list before copy the element from the source list: ");
+        displayArrayList(targetList);
 
-        concatenatedArrays(fruits, otherFruits);
+        copiedArrays(sourceList, targetList);
 
-        System.out.println("ArrayList after concatenated: ");
-        displayArrayList(fruits);
+        System.out.println("Target list with the element from the source list");
+        displayArrayList(targetList);
     }
 
     public static void displayArrayList(List<String> myList) {
         for (String element : myList) {
             System.out.print(element + " ");
         }
+
         System.out.println();
     }
 
-    public static void concatenatedArrays(List<String> fruits, List<String> otherFruits) {
-        fruits.addAll(otherFruits);
+    public static void copiedArrays(List<String> sourceList, List<String> targetList) {
+        targetList.addAll(sourceList);
     }
 }
