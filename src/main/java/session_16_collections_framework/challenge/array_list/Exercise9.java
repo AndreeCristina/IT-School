@@ -26,7 +26,7 @@ public class Exercise9 {
 
         concatenatedArrays(fruits, otherFruits);
 
-        System.out.println("ArrayList afeter concatenated: ");
+        System.out.println("ArrayList after concatenated: ");
         displayArrayList(fruits);
     }
 
