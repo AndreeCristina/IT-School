@@ -24,7 +24,6 @@ public class Exercise4 {
         if (myIndex < 0 || myIndex > MAX_LENGTH) {
             System.out.println("The index is not valid.");
         } else {
-            int specialElement = myList.get(5);
             System.out.println("The element from index " + myIndex + " is: " + myList.get(myIndex));
         }
     }
