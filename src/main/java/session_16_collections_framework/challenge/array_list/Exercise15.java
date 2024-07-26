@@ -34,6 +34,7 @@ public class Exercise15 {
         for (String element : myList) {
             System.out.print(element + " ");
         }
+
         System.out.println();
     }
 
