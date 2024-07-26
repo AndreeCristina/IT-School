@@ -33,7 +33,6 @@ public class Exercise17 {
 
         System.out.println("The list2 after removed elements: ");
         displayArrayList(list2);
-
     }
 
     public static void displayArrayList(List<String> myList) {
