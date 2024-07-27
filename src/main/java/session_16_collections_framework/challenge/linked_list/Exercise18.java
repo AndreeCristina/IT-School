@@ -1,6 +1,5 @@
 package session_16_collections_framework.challenge.linked_list;
 
-import java.util.Collections;
 import java.util.LinkedList;
 
 public class Exercise18 {
