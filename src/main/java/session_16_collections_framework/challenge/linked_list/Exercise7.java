@@ -18,14 +18,17 @@ public class Exercise7 {
 
 
         placesToVisit.offerFirst("Dubai");
+
         System.out.println("Linked list after insert the specified element at the front of a linked list.");
         displayPlacesToVisit(placesToVisit);
 
         placesToVisit.addFirst("Barcelona");
+
         System.out.println("Linked list after insert another specified element at the front of a linked list.");
         displayPlacesToVisit(placesToVisit);
 
         placesToVisit.push("Bali");
+
         System.out.println("Linked list after insert another specified element at the front of a linked list.");
         displayPlacesToVisit(placesToVisit);
     }

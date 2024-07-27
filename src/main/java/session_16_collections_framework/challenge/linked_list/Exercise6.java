@@ -19,10 +19,12 @@ public class Exercise6 {
         displayLinkedList(myLinkedList);
 
         myLinkedList.addFirst(101);
+
         System.out.println("LinkedList after insert an element to the first position");
         displayLinkedList(myLinkedList);
 
         myLinkedList.addLast(500);
+
         System.out.println("LinkedList after insert an element to the last position");
         displayLinkedList(myLinkedList);
     }

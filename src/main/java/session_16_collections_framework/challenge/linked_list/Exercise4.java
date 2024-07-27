@@ -22,7 +22,7 @@ public class Exercise4 {
 
         System.out.println();
 
-        System.out.println("LinkedList in reverse order");
+        System.out.println("LinkedList in reverse order: ");
         for (int i = myLinkedList.size() - 1; i >= 0; i--) {
             System.out.print(myLinkedList.get(i) + " ");
         }

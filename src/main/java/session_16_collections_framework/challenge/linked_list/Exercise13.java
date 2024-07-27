@@ -44,7 +44,6 @@ public class Exercise13 {
         placesToVisit.pollLast();
         System.out.println("Linked list after remove another last element.");
         displayPlaceToVisit(placesToVisit);
-
     }
 
     public static void displayPlaceToVisit(LinkedList<String> placeToVisit) {

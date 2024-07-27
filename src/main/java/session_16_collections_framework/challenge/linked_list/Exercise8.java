@@ -19,14 +19,17 @@ public class Exercise8 {
         displayLinkedList(myLinkedList);
 
         myLinkedList.addLast(200);
+
         System.out.println("Linked list after insert an element at the end of linked list");
         displayLinkedList(myLinkedList);
 
         myLinkedList.add(201);
+
         System.out.println("Linked list after insert an element at the end of linked list");
         displayLinkedList(myLinkedList);
 
         myLinkedList.offerLast(202);
+
         System.out.println("Linked list after insert an element at the end of linked list");
         displayLinkedList(myLinkedList);
     }

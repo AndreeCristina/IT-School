@@ -26,6 +26,7 @@ public class Exercise14 {
         for (String place : placeToVisit) {
             System.out.print(place + " ");
         }
+
         System.out.println();
     }
 }
