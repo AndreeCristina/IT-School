@@ -1,5 +1,6 @@
 package session_16_collections_framework.challenge.linked_list;
 
+import java.util.Collections;
 import java.util.LinkedList;
 
 public class Exercise15 {
@@ -24,6 +25,11 @@ public class Exercise15 {
         swapElements(myLinkedList, index1, index2);
 
         System.out.println("Linked list after swap two elements is: ");
+        displayLinkedList(myLinkedList);
+
+        Collections.swap(myLinkedList, 0, 6);
+
+        System.out.println("Linked list after swap another two elements: ");
         displayLinkedList(myLinkedList);
     }
 
