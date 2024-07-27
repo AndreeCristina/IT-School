@@ -33,6 +33,9 @@ public class Exercise13 {
         System.out.println("Linked list after removed another first element.");
         displayPlaceToVisit(placesToVisit);
 
+        placesToVisit.pop();
+        System.out.println("Linked list after removed another first element.");
+        displayPlaceToVisit(placesToVisit);
 
         placesToVisit.removeLast();
         System.out.println("Linked list after remove the last element.");
@@ -41,6 +44,7 @@ public class Exercise13 {
         placesToVisit.pollLast();
         System.out.println("Linked list after remove another last element.");
         displayPlaceToVisit(placesToVisit);
+
     }
 
     public static void displayPlaceToVisit(LinkedList<String> placeToVisit) {
