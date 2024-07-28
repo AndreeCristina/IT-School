@@ -1,9 +1,11 @@
 package session_16_collections_framework.challenge.hash_set;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
-public class Exercise7 {
-    // Write a Java program to convert a hash set to an array.
+public class Exercise9 {
+    //9. Write a Java program to convert a hash set to a List/ArrayList. .
 
     public static void main(String[] args) {
         HashSet<String> mySet = new HashSet<>();
@@ -17,10 +19,10 @@ public class Exercise7 {
         System.out.println("Original hash set: ");
         displayHashSetElements(mySet);
 
-        String[] myArray = mySet.toArray(new String[0]);
+        List<String> myArray = new ArrayList<>(mySet);
 
-        System.out.println("The element of the array are: ");
-        displayArrayElements(myArray);
+        System.out.println("The elements of the arrayList");
+        displayArrayListElements(myArray);
     }
 
     public static void displayHashSetElements(HashSet<String> mySet) {
@@ -31,7 +33,7 @@ public class Exercise7 {
         System.out.println();
     }
 
-    public static void displayArrayElements(String[] myArray) {
+    public static void displayArrayListElements(List<String> myArray) {
         for (String element : myArray) {
             System.out.print(element + " ");
         }
