@@ -2,8 +2,8 @@ package session_16_collections_framework.challenge.tree_set;
 
 import java.util.TreeSet;
 
-public class Exercise10 {
-    // Write a Java program to get the element in a tree set which is greater than or equal to the given element.
+public class Exercise11 {
+    // Write a Java program to get the element in a tree set which is less than or equal to the given element.
 
     public static void main(String[] args) {
         TreeSet<Integer> numbers = new TreeSet<>();
@@ -19,11 +19,11 @@ public class Exercise10 {
         System.out.println("Original TreeSet: ");
         displayTreeSet(numbers);
 
-        int targetNo = 7;
+        int targetNo = 6;
 
-        Integer result = numbers.ceiling(targetNo);
+        Integer result = numbers.floor(targetNo);
 
-        System.out.println("The element witch is grater or equal with the target number is: " + result);
+        System.out.println("The element witch is less or equal with the target number is: " + result);
     }
 
     public static void displayTreeSet(TreeSet<Integer> numbers) {
