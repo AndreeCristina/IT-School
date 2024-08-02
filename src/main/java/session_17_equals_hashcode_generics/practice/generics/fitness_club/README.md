@@ -1,12 +1,13 @@
 Fitness Club
 Description:
-You are tasked with creating a simple software system to manage a fitness club. The system should handle the basic operations related to members, trainers, and fitness classes.
+You are tasked with creating a simple software system to manage a fitness club. The system should handle the 
+basic operations related to members, trainers, and fitness classes.
 
 Requirements:
 Members:
 
-Each member has a unique ID, name, age, membership type (e.g., Basic, Premium), and a list of classes they are enrolled in.
-Members can enroll in and withdraw from fitness classes.
+Each member has a unique ID, name, age, membership type (e.g., Basic, Premium), and a list of classes they are 
+enrolled in. Members can enroll in and withdraw from fitness classes.
 
 Trainers:
 
