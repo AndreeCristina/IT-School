@@ -15,7 +15,7 @@ public class Exercise5 {
         colors.add("purple");
         colors.add("brown");
 
-        String firstElement = colors.getFirst();
+        String firstElement = colors.first();
         String lastElement = colors.pollLast();
 
         System.out.println("The first elements of the TreeSet color is: " + firstElement);

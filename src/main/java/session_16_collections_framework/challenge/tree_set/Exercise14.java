@@ -19,7 +19,7 @@ public class Exercise14 {
         System.out.println("Original TreeSet: ");
         displayTreeSet(numbers);
 
-        int firstElement = numbers.getFirst();
+        int firstElement = numbers.first();
 
         System.out.println("The first element of the TreeSet is: " + firstElement);
 
