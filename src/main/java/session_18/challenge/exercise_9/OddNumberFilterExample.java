@@ -2,7 +2,6 @@ package session_18.challenge.exercise_9;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class OddNumberFilterExample {
     /* Create a functional interface that takes a list of integers and returns a list of integers. Use a lambda
@@ -10,13 +9,13 @@ public class OddNumberFilterExample {
     the original list. */
 
     public static void main(String[] args) {
-        List<Integer> myList = Arrays.asList(1, 5, 8, 7, 10, 9, 3, 2);
+        List<Integer> inputList = Arrays.asList(1, 5, 8, 7, 10, 9, 3, 2);
 
-        OddNumberFilter filter = list -> list.stream()
+        OddNumberFilter oddNumberFilter = list -> list.stream()
                 .filter(n -> n % 2 != 0)
-                .collect(Collectors.toList());
+                .toList();
 
-        List<Integer> oddNumbers = filter.filter(myList);
+        List<Integer> oddNumbers = oddNumberFilter.filter(inputList);
         System.out.println(oddNumbers);
     }
 }
