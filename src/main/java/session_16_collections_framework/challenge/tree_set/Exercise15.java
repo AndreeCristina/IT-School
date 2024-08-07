@@ -19,7 +19,7 @@ public class Exercise15 {
         System.out.println("Original TreeSet: ");
         displayTreeSet(numbers);
 
-        int lastElement = numbers.getLast();
+        int lastElement = numbers.last();
 
         System.out.println("The last element of the TreeSet is: " + lastElement);
 
