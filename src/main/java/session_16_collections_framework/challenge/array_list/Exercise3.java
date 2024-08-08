@@ -13,7 +13,7 @@ public class Exercise3 {
         fruits.add("banana");
         fruits.add("pear");
 
-        fruits.addFirst("orange");
+        fruits.add(0, "orange");
 
         System.out.println("The ArrayList after insert an element at the first position: ");
         for (String fruit : fruits) {
