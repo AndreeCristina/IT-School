@@ -1,0 +1,6 @@
+Key Characteristics of Java Streams:
+Not a data structure: Streams don't store elements; they're a way to process data from a source.
+Lazy evaluation: Intermediate operations are not executed until a terminal operation is applied.
+Functional style: Encourages declarative programming and immutability.
+Pipeline: Data flows through a pipeline of operations.
+Immutable: Streams don't modify the underlying data source.
